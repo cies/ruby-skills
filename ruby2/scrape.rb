@@ -20,9 +20,6 @@ end
 
 # use sinatra to show h2s found
 get '/' do
-  'Sup strangers'
-end
-
-post '/' do
   scrapeBalls("http://www.paulhuisman-online.nl")
 end
+
